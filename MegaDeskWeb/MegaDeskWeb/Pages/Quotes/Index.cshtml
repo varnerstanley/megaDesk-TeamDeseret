@@ -5,11 +5,23 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+    <section class="container">
+        <h1 class="row mx-auto">Index</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+        <p class="row mx-auto">
+            <a asp-page="Create">Create New</a>
+        </p>
+
+        <div class="row">
+            <form class="p-1">
+                <p>
+                    Search by Customer: <input type="text" asp-for="SearchString" />
+                    <input type="submit" value="Filter" />
+                </p>
+            </form>
+        </div>
+
+    </section>
 <table class="table">
     <thead>
         <tr>

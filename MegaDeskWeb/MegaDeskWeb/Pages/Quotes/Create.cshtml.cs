@@ -34,8 +34,14 @@ namespace MegaDeskWeb.Pages.Quotes
             {
                 return Page();
             }
-
+            DeskQuote.setQuoteDate();
             _context.DeskQuote.Add(DeskQuote);
+            // Run functions to calculate other required fields
+            DeskQuote.calcSurfaceArea();
+            
+            DeskQuote.calcRushPricing();
+            DeskQuote.getMaterialPrice();
+            DeskQuote.calcTotalCost();
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

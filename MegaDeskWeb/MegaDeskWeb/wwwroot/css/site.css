@@ -1,5 +1,6 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
 
 a.navbar-brand {
   white-space: normal;
@@ -58,9 +59,28 @@ html {
   min-height: 100%;
 }
 
+.header {
+    width: 100%;
+}
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://picsum.photos/id/381/1920/1080);
+    background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navWidth {
+    width: 100%;
+}
+.tableBG {
+    background-color: #fff;
+    border-radius: 5px;
 }
 .footer {
   position: absolute;

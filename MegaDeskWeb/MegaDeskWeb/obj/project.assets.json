@@ -8124,23 +8124,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CNTin\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\atlas\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CNTin\\source\\repos\\megaDesk-TeamDeseret\\MegaDeskWeb\\MegaDeskWeb\\MegaDeskWeb.csproj",
+      "projectUniqueName": "Z:\\MegaDeskWeb\\MegaDeskWeb\\MegaDeskWeb.csproj",
       "projectName": "MegaDeskWeb",
-      "projectPath": "C:\\Users\\CNTin\\source\\repos\\megaDesk-TeamDeseret\\MegaDeskWeb\\MegaDeskWeb\\MegaDeskWeb.csproj",
-      "packagesPath": "C:\\Users\\CNTin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CNTin\\source\\repos\\megaDesk-TeamDeseret\\MegaDeskWeb\\MegaDeskWeb\\obj\\",
+      "projectPath": "Z:\\MegaDeskWeb\\MegaDeskWeb\\MegaDeskWeb.csproj",
+      "packagesPath": "C:\\Users\\atlas\\.nuget\\packages\\",
+      "outputPath": "Z:\\MegaDeskWeb\\MegaDeskWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\CNTin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\atlas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
